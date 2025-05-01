@@ -1,12 +1,12 @@
 {
   "name": "@mohammed-bahumaish/prisma-dmmf-extended",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An extension library for Prisma's DMMF (Data Model Meta Format) that provides bidirectional conversion between Prisma schema and DMMF",
   "license": "MIT",
   "author": "Mohammed Bahumaish",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mohammed-bahumaish/prisma-dmmf-extended.git"
+    "url": "git+https://github.com/mohammed-bahumaish/prisma-dmmf-extended.git"
   },
   "keywords": [
     "prisma",
@@ -35,9 +35,11 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@prisma/engine-core": "^4.13.0",
-    "@prisma/generator-helper": "^5.2.0",
-    "@prisma/internals": "^5.2.0",
+    "@prisma/engine-core": "^4.10.1",
+    "@prisma/generator-helper": "^4.10.1",
+    "@prisma/internals": "^4.10.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
     "strip-ansi": "^7.0.1"
   },
   "devDependencies": {

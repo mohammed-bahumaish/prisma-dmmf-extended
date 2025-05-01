@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { type DMMF } from "@prisma/generator-helper";
 import { formatSchema, type ConfigMetaFormat } from "@prisma/internals";
 import {

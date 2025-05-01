@@ -2,6 +2,11 @@
 
 An extension library for Prisma's DMMF (Data Model Meta Format) that provides bidirectional conversion between Prisma schema and DMMF.
 
+
+[![npm version](https://badge.fury.io/js/%40mohammed-bahumaish%2Fprisma-dmmf-extended.svg)](https://www.npmjs.com/package/@mohammed-bahumaish/prisma-dmmf-extended)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 ## Features
 
 - Convert Prisma schema to DMMF (`schemaToDmmf`)
